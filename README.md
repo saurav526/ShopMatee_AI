@@ -1,6 +1,6 @@
 # ShopMate AI — Agentic E-Commerce Platform
 
-A portfolio-grade e-commerce demo combining a React storefront with a multi-tool AI shopping agent.
+A  e-commerce demo combining a React storefront with a multi-tool AI shopping agent.
 
 ## Stack
 - React + Vite
