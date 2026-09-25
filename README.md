@@ -33,6 +33,7 @@ Groq currently recommends GPT-OSS 120B/20B for modern tool-use workflows; this p
 - Python 3.11+
 - Node.js 18+
 - Docker Desktop
+- postgresSQL (pgadmin14)
 
 ### B. Start PostgreSQL + pgvector
 From the project root:
