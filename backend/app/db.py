@@ -2,7 +2,6 @@ import os, json
 import psycopg
 from psycopg.rows import dict_row
 from dotenv import load_dotenv
-
 load_dotenv()
 DB_URL=os.getenv('DATABASE_URL','postgresql://postgres:postgres@localhost:5432/shopmate')
 
