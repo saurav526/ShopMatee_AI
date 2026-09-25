@@ -58,9 +58,10 @@ copy .env.example .env
 
 Edit `.env` and put your Groq key:
 
-```env
+```env/
+<!-- select sutiable groq mmodel  -->
 GROQ_API_KEY=your_key_here
-GROQ_MODEL=openai/gpt-oss-120b
+GROQ_MODEL=openai/gpt-oss-120b 
 ```
 
 Start API:
