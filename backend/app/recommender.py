@@ -36,7 +36,6 @@ def semantic_search(query,limit=8):
         for i in ranked:
             if sims[i]>0: out.append(dict(products[i],similarity=float(sims[i])))
         return out
-
 def rank_products(products,query=''):
     if not products:return []
     terms=set(re.findall(r'[a-z0-9]+',query.lower()))
