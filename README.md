@@ -27,6 +27,7 @@ Groq currently recommends GPT-OSS 120B/20B for modern tool-use workflows; this p
 10. Order analytics dashboard
 11. Deterministic fallback if Groq is not configured
 12. Demo product catalog
+13. AI assistent for helping user query
 
 ## Quick start — Windows
 
