@@ -93,7 +93,6 @@ def chat(message, history, user_id):
         }
 
     except Exception as e:
-
         import traceback
 
         print("\n========== SHOPMATE AI ERROR ==========")
