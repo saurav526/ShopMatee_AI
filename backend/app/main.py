@@ -173,7 +173,6 @@ def additem(
         x.quantity
     )
 
-
 @app.delete("/api/cart/items/{pid}")
 def delitem(
     pid: int,
