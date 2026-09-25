@@ -29,8 +29,6 @@ Groq currently recommends GPT-OSS 120B/20B for modern tool-use workflows; this p
 12. Demo product catalog
 13. AI assistent for helping user query
 
-## Quick start — Windows
-
 ### A. Install prerequisites
 - Python 3.11+
 - Node.js 18+
