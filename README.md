@@ -39,7 +39,11 @@ Groq currently recommends GPT-OSS 120B/20B for modern tool-use workflows; this p
 From the project root:
 
 ```bash
+
 docker compose up -d db
+docker compose ps
+python -c "import psycopg2; c=psycopg2.connect(host='127.0.0.1',port=5433,user='postgres',password='postgres',dbname='shopmate'); print('DIRECT CONNECTION SUCCESS'); c.close()"
+it will show DIRECT CONNECTION SUCCESS as output
 ```
 
 ### C. Backend
