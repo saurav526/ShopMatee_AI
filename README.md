@@ -85,8 +85,8 @@ Open http://localhost:5173
 
 ## Demo account
 You can register from the UI. For quick testing, the seeded database also creates:
-- Email: `demo@shopmate.local`
-- Password: `Demo@12345`
+- Email: `email@gmail.com`
+- Password: `string`
 
 ## Try these prompts
 - Show me waterproof jackets under $100 for hiking
