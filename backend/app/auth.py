@@ -19,7 +19,6 @@ SECRET = os.getenv(
 def hash_pw(password):
     return pwd.hash(password)
 
-
 def verify(password, hashed_password):
     return pwd.verify(
         password,
