@@ -11,5 +11,6 @@ services:
       - "5433:5432"
     volumes:
       - shopmate_pgdata:/var/lib/postgresql/data
+
 volumes:
   shopmate_pgdata:
