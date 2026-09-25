@@ -1,3 +1,4 @@
+# This file lists all the dependencies required for the backend of the project. Each line specifies a package and its version to ensure compatibility and reproducibility across different environments.
 fastapi==0.116.1
 uvicorn[standard]==0.35.0
 pydantic==2.11.7
